@@ -39,7 +39,6 @@
 .semester-section{
     display: flex;
     margin-bottom: 3rem;
-    background-color: #ececec;
     align-items: center;
     height: 17rem;
 }
@@ -50,6 +49,7 @@
     flex-flow: wrap;
     justify-content: space-around;
     align-items: center;
+    padding-bottom: 8rem;
 }
 .para-semester-section{
     font-size: 1.6rem;
@@ -77,4 +77,26 @@
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+}
+.para-semester-section li{
+    list-style: square;
+}
+.para-semester-section li a{
+    text-decoration: none;
+    color: #333333;
+}
+.para-semester-section li a:hover{
+    color: #2349f5;
+}
+.img_leson{
+    width: 40%;
+}
+.head-semester-left::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 1px;
+    height: 80%;
+    background-color: #979797;
+    right: 540px;
 }

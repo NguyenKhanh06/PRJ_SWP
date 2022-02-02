@@ -13,11 +13,11 @@
 /* --gradient-color: linear-gradient(145deg, #fc00ff, #00dbde); */
 
 .margin-left-2rem {
-    margin-left: 2rem;
+    margin-left: 17rem;
 }
 
 html {
-    /* font-family: Poppins, sans-serif; */
+    font-family: Poppins, sans-serif !important;
     font-size: 62.5%;
     line-height: 1.6rem;
     scroll-behavior: smooth;
@@ -36,8 +36,8 @@ i {
 }
 
 ::selection {
-    background: var(--primary-color);
-    color: var(--white-color);
+    background: #001261;
+    color: #fff;
 }
 
 @keyframes growDown {
@@ -152,7 +152,7 @@ i {
     z-index: 4;
     top: 0;
     right: -50%;
-    background-color: var(--white-color);
+    background-color: #fff;
     width: 45rem;
     height: 100vh;
     overflow-y: scroll;
@@ -207,13 +207,14 @@ i {
     margin-bottom: 6rem;
     /* font-family: Satisfy, cursive; */
     font-size: 3.2rem;
-    color: var(--primary-color);
+    color: #001261;
     text-align: center;
+    line-height: 4rem;
 }
 
 .main-heading {
     font-size: 6.4rem;
-    color: var(--text-color);
+    color: #111111;
     font-weight: 600;
 }
 
@@ -244,7 +245,7 @@ i {
 .para-heading--white,
 .sub-heading--white,
 .main-heading--white {
-    color: var(--white-color);
+    color: #fff;
 }
 
 
@@ -279,6 +280,6 @@ i {
 
 .footer__heading {
     font-size: 1.8rem;
-    color: var(--white-color);
+    color: #fff;
     font-weight: 600;
 }
