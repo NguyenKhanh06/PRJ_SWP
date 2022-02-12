@@ -81,3 +81,25 @@ color: #333333;
     line-height: 2.5rem;
     font-size: 1.5rem;
 }
+.tags_news{
+    margin-top: 10px;
+}
+.btn-tag{
+  padding: 4px 6px;
+  text-align: center;
+  font-size: 12px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white; 
+  color: black; 
+  border: 2px solid;
+  border-radius: 20%;
+}
+.btn-tag:hover{
+    background-color: #0004d8;
+    color: white;
+}
+.caption:hover h5>a{
+    color: #0004d8;
+}

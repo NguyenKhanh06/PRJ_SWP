@@ -47,7 +47,7 @@
     height: 100%;
     display: flex;
     flex-flow: wrap;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     align-items: center;
     padding-bottom: 8rem;
 }
@@ -91,12 +91,10 @@
 .img_leson{
     width: 40%;
 }
-.head-semester-left::after{
-    content: "";
-    display: block;
-    position: absolute;
-    width: 1px;
-    height: 80%;
-    background-color: #979797;
-    right: 540px;
+
+.intro-m{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
 }
