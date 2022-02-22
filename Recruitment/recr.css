@@ -169,11 +169,3 @@ color: #333333;
 .caption:hover h5>a{
     color: #0004d8;
 }
-.category-recruit{
-    font-size: 23px;
-    background: linear-gradient(45deg, #003380 0%, #000000 100%);
-    padding: 1%;
-    color: #fdfbfb;
-    text-align: center;
-    margin-top: 50px;
-}
