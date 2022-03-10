@@ -103,3 +103,16 @@ color: #333333;
 .caption:hover h5>a{
     color: #0004d8;
 }
+.regis_link{
+    text-align: center;
+    height: 60px;
+}
+.regis_link-item{
+    padding: 18px 40px;
+    background-color: #0004d8;
+    color: #fff;
+    text-decoration: none;
+}
+.regis_link:hover{
+    opacity: 0.8
+}
